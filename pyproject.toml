@@ -64,5 +64,5 @@ SQLAlchemy = {extras = ["mypy"], version = "^1.4.27"}
 tomlkit = "^0.8.0"
 
 [build-system]
-requires = ["poetry-core>=1.0.0"]
+requires = ["poetry-core>=1.0.0", "setuptools"]
 build-backend = "poetry.core.masonry.api"
